@@ -1,0 +1,87 @@
+<!doctype html>
+<!--
+Benemérita Universidad Autónoma de Puebla
+Colegio de Diseño Gráfico
+Diseño de Interfaces Gráficas de Usuario
+Creadora: Montserrat Minutti Noriega
+-->
+<html>
+	<head>
+		<meta charset="uft-8">
+		<title>Video en html</title>
+		<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			video{
+				width: 80%;
+				height: auto;
+				display: block;
+				margin: 0 auto;
+			}
+			iframe{
+				display: block;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>VIDEO EN HTML</h1>
+		</header>
+		<nav>
+			<ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="listas_css.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+		</nav>
+		<main>
+			<section>
+				<h2>Jonas Brothers en México</h2>
+                <h4>Video con controles</h4><br>
+				<p>El jueves 22 de agosto de este año, 2024, mi hermana y yo fuimos a CDMX al concierto "five albums one night" de nuestra banda favorita: Jonas Brothers.</p>
+                <p>Abrieron el concierto con "Celebrate!", canción de su quinto álbum titulado "The album"</p><br>
+				<video controls>
+					<source src="../vid/celebrate.mp4" type="video/mp4">
+					<source src="#" type="video/ogg">
+					<source src="#" type="video/webm">
+					El navegador no soporta este formato de video.
+				</video>
+			</section>
+			<section>
+				<h2>Joe Jonas</h2>
+                <h4>Video autoplay y loop</h4><br>
+				<p>Conocí a los Jonas Brothers cuando tenía cinco años, en 2008. Los conocí gracias a la película de Disney "Camp Rock" y desde entonces he sido gran fan.</p>
+                <p>Joe Jonas ha sido mi Jonas favorito desde ese entonces.</p>
+                <p>Me enamoré de Joe en la película cuando cantó la canción "Gotta find you". Por eso fue muy especial para mí escucharlo cantarla en vivo después de dieciséis años de ser fan de la banda.</p><br>
+				<video autoplay loop muted width="50%" height="50%">
+					<source src="../vid/gottafindyou.mp4" type="video/mp4">
+					El navegador no soporta este formato de video.
+				</video>
+			</section>
+			<section>
+				<h2>Only human</h2>
+                <h4>Video con poster</h4><br>
+				<p>"Only human" es una de mis canciones favoritas del cuarto álbum de los Jonas titulado "Happiness begins". También es una de las favoritas de muchas de sus fans. En especial por cierto paso de baile que hacen en los conciertos con esta canción.</p>
+                <p>Adelante con las imágenes.</p><br>
+				<video controls poster="../img/advertencia.jpg">
+					<source src="../vid/onlyhuman.mp4" type="video/mp4">
+				</video>
+			</section>
+			<section>
+				<h2>24 horas en la vida de los Jonas</h2>
+                <h4>Video de YouTube</h4><br>
+				<p>En el año 2023 Vogue documentó cómo es un día con los Jonas Brothers.</p>
+                <p>Vogue acompañó a Joe, Nick y Kevin Jonas durante un día lleno de entrevistas y pruebas de sonido en Nueva York. Los Jonas Brothers ensayan para el show de Saturday Night Live y después se dirigen a SONA, el restaurante de Priyanka Chopra (y esposa de Nick Jonas), donde cenan una deliciosa pizza.</p><br>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/FF7quHzvmak?si=1d67LiezkCN9WXwV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</section>
+		</main>
+		<footer>
+			<h5>Elaborado por: Montserrat Minutti Noriega</h5>
+		</footer>
+	</body>
+</html>

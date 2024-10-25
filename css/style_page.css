@@ -1,0 +1,335 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header, nav, main, footer{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+header{
+    background-color: #001f36;
+    color: #fbffcd;
+    height: 150px;
+    text-align: center;
+}
+nav{
+    height: 50px;
+    background-color: #1c5560;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main{
+    height: auto;
+    background-color: #fbffcd;
+}
+section{
+    width: 80%;
+    height: auto;
+    background-color: #79ae92;
+    color: #001f36;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+footer{
+    height: 50px;
+    background-color: #001f36;
+    color: #fbffcd;
+    text-align: center;
+    }
+#lago_img{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+   margin-left: auto;
+    margin-right: auto;
+}
+h2{
+   margin-bottom: 20px; 
+}
+h5{
+    margin-top: 20px;
+}
+ ul li a:link, ul li a:visited{
+    width: 75px;
+    background-color: #001f36;
+    color: #fbffcd;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+ ul li a:hover{
+    width: 75px;
+    background-color: #fbffcd;
+    color: #1c5560;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#carretera_img{
+    width: 500px;
+    height: auto;
+    float: right;
+    padding: 5px;
+}
+#hojitas_img{
+    width: 270px;
+    height: auto;
+    float: left;
+    padding: 5px;
+}
+#icono_img{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+#fogata_img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img_filtros img{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+#filtro1{
+    filter: brightness(200%);
+}
+#filtro2{
+    filter: contrast(50%);
+}
+#filtro3{
+    filter: grayscale(100%);
+}
+#filtro4{
+    filter: sepia(100%);
+}
+#filtro5{
+    filter: saturate(150%);
+}
+#filtro6{
+    filter: opacity(40%);
+}
+#filtro7{
+    filter: invert(100%);
+}
+#filtro8{
+    filter: blur(5px);
+}
+#filtro9{
+    filter: drop-shadow(10px 10px 5px seagreen);
+}
+#filtro10{
+    filter: contrast(150%) drop-shadow(20px 20px 5px seagreen);
+}
+#filtro11{
+    filter: saturate(200%) brightness(60%);
+}
+#filtro12{
+    filter: grayscale(70%) brightness(170%);
+}
+table{
+    color: #fbffcd;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid #fbffcd;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+table th, table td{
+    padding: 10px;
+}
+.tabla1{
+    width: 1000px;
+    border-collapse: collapse;
+}
+.tabla1 th{
+    background-color: #001f36;
+    height: 50px;
+}
+.tabla1 tbody{
+    background-color: #1c5560;
+}
+.tabla1 td{
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+    margin: 20px;
+}
+.tabla1 td, .tabla1 th{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #001f36;
+}
+#tabla1{
+    width: 150%;
+}
+#tabla2{
+    width: 1000px;
+    border: 5px solid #001f36;
+    border-collapse: collapse;
+}
+#tabla2 th{
+    height: 50px;
+}
+#tabla2 td{
+    height: 40px;
+    padding: 20px;
+    text-align: center;
+}
+#tabla2 tr:nth-child(even){
+    background-color: #1c5560;   
+}
+#tabla2 tbody tr:nth-child(odd){
+    background-color: #fbffcd;
+    color: #1c5560;  
+}
+#tabla2 thead tr th{
+    background-color: #001f36;
+    padding: 20px;
+}
+#tabla3{
+    width: 1000px;
+    border: 2px solid #1c5560;
+        border-collapse: collapse;
+}
+#tabla3 tbody{
+    background-color: #fbffcd;
+    color: #1c5560;
+}
+#tabla3 th{
+    background-color: #1c5560;
+    height: 50px;
+}
+#tabla3 td{
+    height: 40px;
+    text-align: center;
+}
+#tabla3 tr:hover{
+    background-color: #79ae92;
+    color: #001f36;
+}
+/*}#form1  {
+    width: 50%;
+	padding: 30px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+	max-resolution: auto;
+    background-color: #002038;
+}
+#form2 {
+    width: 50%;
+}
+label {
+    color: #FAFFC7;
+    font-weight: bolder;
+    width: 100%;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#textfield2 {
+}
+#form1 input[type=text]  ,#form1 input[type=password]{
+    width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	margin-top: 10px;
+    background-color: #69B090;
+    color: #002038;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#form1 input[type=submit] {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+    height: 30px;
+    background-color: #FAFFC7;
+    padding: 10px;
+    color: #002038;
+}*/
+form  {
+    width: 30%;
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #002038;
+}
+label {
+    color: #FAFFC7;
+    font-weight: bolder;
+    width: 100%;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+input[type=text],input[type=password] , #cel, #correo{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #005762;
+    background-color: #FAFFC7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input[type=submit]  , input[type=reset]{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 30%;
+    height: 30px;
+    background-color: #005762;
+    color: #FAFFC7;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#edad   , #fecha, #edadd{
+    width: 30%;
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #FAFFC7;
+    color: #005762;
+    font-weight: bolder;
+}
+#form2 #país , #form3 #carrera{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #FAFFC7;
+    color: #005762;
+    font-weight: bolder;
+}
+#form2 {
+    width: 50%;
+}

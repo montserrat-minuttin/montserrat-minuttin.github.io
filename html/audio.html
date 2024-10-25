@@ -1,0 +1,97 @@
+<!doctype html>
+<!--
+Benemérita Universidad Autónoma de Puebla
+Colegio de Diseño Gráfico
+Diseño de Interfaces Gráficas de Usuario
+Creadora: Montserrat Minutti Noriega
+-->
+<html>
+    <head>
+        <title>Audio</title>
+        <link rel="stylesheet" href="../css/style_page.css" type="text/css">
+        <style type="text/css">
+            header, nav, main, footer{
+                width: 100%;
+            }
+            main{
+                text-align: center;
+            }
+            section{
+                width: 40%;
+                height: 400px;
+                display: inline-block;
+                margin: 10px;
+                text-align: left;
+                overflow: auto;
+            }
+            audio, iframe{
+                margin: 30px auto;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>AUDIO EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="listas_css.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>        
+        </nav>
+        <main>
+            <section>
+                <h2>Daylight</h2>
+                <h4>Audio</h4><br>
+                <p>Una de mis artistas favoritas es Taylor Swift. De los 11 álbumes que tiene, mi favorito es el séptimo: Lover.</p>
+                <p>Daylight es una de mis canciones favoritas de este álbum. Es una canción de amor y habla de cómo cambia nuestra perspectiva cuando nos enamoramos y que ahora todo lo vemos bonito y claro como la luz del día.</p>
+                <audio controls>
+                    <source src="../audio/Daylight.mp3" type="audio/mp3">
+                    Tu navegador no soporta el formato de audio mp3.
+                </audio>
+            </section>
+            <section>
+                <h2>Cornelia Street</h2>
+                <h4>Audio con reproducción automática y muted</h4><br>
+                <p>Cornelia Street también es una canción de Taylor Swift, del álbum Lover.</p>
+                <p>Esta canción habla del sentimiento tan profundo de enamoramiento que puede llevar a sentir miedo de perder a la persona que uno ama, y cómo espera que eso no pase porque sería una pérdida de la que no podría recuperarse.</p>
+                <audio controls muted autoplay>
+                    <source src="../audio/Cornelia Street.mp3" type="audio/mp3">
+                    Tu navegador no soporta el formato de audio mp3.
+                </audio>                
+            </section>
+            <section>
+                <h2>Lover</h2>
+                <h4>Audio con reproducción cíclica</h4><br>
+                <p>Esta canción lleva el título del álbum: Lover.</p>
+                <p>Lover también habla del sentimiento profundo del enamoramiento. Idealiza a la persona que se ama y se imagina compartiendo una casa con esa persona y haciéndola el lugar seguro de ambos.</p>
+                <audio controls loop>
+                    <source src="../audio/Lover.mp3" type="audio/mp3">
+                    Tu navegador no soporta el formato de audio mp3.
+                </audio>
+            </section>
+            <section>
+                <h2>Podcast</h2>
+                <h4>Audio de banco de audios</h4><br>
+                <p>Este es un podcast que habla sobre la cantante Taylor Swift, su música y eventos importantes que ha pasado, para conocer un poco más sobre ella y su carrera.</p>
+                <iframe src="https://www.ivoox.com/player_ej_68547438_6_1.html?c1=614425" width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" loading="lazy"></iframe>
+            </section>
+            <section>
+                <h2>Lover the album</h2>
+                <h4>Audio de spotify</h4><br>
+                <p>Este es álbum completo. Publicado el 23 de agosto de 2019, cuenta con 18 canciones y una duración de 1 hora y 1 minuto.</p>
+               <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1NAmidJlEaVgA3MpcPFYGq?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>            
+        </main>
+        <footer>
+            <h5>Elaborado por: Montserrat Minutti Noriega</h5>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,359 @@
+<!doctype html>
+<!--
+Benemérita Universidad Autónoma de Puebla
+Colegio de Diseño Gráfico
+Diseño de Interfaces Gráficas de Usuario
+Creadora: Montserrat Minutti Noriega
+-->
+<html>
+    <head>
+        <title>Tablas en html</title>
+        <link rel="stylesheet" href="../css/style_page.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>TABLAS EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="listas_css.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Datos de contacto de mis amigos</h2>
+                <h4>Tabla simple con separación de bordes de celda</h4><br>
+                    <p>Ellos son mis amigos más cercanos y sus medios de contacto.</p><br>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellido Paterno</th>
+                                <th>Apellido Materno</th>
+                                <th>Teléfono</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Keren Michelle</td>
+                                <td>Serés</td>
+                                <td>Cortés</td>
+                                <td>222 897 8213</td>
+                                <td>kerenm.seres@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Karla Cecilia</td>
+                                <td>Vázquez</td>
+                                <td>Sánchez</td>
+                                <td>222 921 1244</td>
+                                <td>kar.cvs@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Itai</td>
+                                <td>Rosete</td>
+                                <td>Velazco</td>
+                                <td>221 199 1514</td>
+                                <td>itai.rosete@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Brenda Karen</td>
+                                <td>Cielo</td>
+                                <td>Anselmo</td>
+                                <td>222 473 6049</td>
+                                <td>brenda.cielo@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Juan Pablo</td>
+                                <td>Vázquez</td>
+                                <td>Sánchez</td>
+                                <td>222 178 3380</td>
+                                <td>jpablo.vs@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Carlos Aín</td>
+                                <td>Miranda</td>
+                                <td>Guerrero</td>
+                                <td>222 758 7859</td>
+                                <td>ain.guerrero@gmail.com</td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>
+            </section>
+            <section>
+                <h2>Hobbies de mis amigos</h2>
+                <h4>Tabla modificada por clase y con uso de colspan</h4><br>
+                    <p>Todos mis amigos tienen gustos diferentes. Estos son algunos de sus hobbies.</p><br>
+                    <table border="1" id="tabla" class="tabla1">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellido Paterno</th>
+                                <th>Apellido Materno</th>
+                                <th colspan="3">Hobbies</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Keren Michelle</td>
+                                <td>Serés</td>
+                                <td>Cortés</td>
+                                <td>Leer</td>
+                                <td>Eschuchar música</td>
+                                <td>Salir con amigos</td>
+                            </tr>
+                            <tr>
+                                <td>Karla Cecilia</td>
+                                <td>Vázquez</td>
+                                <td>Sánchez</td>
+                                <td>Ver películas</td>
+                                <td>Salir con amigos</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Itai</td>
+                                <td>Rosete</td>
+                                <td>Velazco</td>
+                                <td>Dibujar</td>
+                                <td>Salir con su familia</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Brenda Karen</td>
+                                <td>Cielo</td>
+                                <td>Anselmo</td>
+                                <td>Dibujar</td>
+                                <td>Salir con su novio</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Juan Pablo</td>
+                                <td>Vázquez</td>
+                                <td>Sánchez</td>
+                                <td>Jugar videojuegos</td>
+                                <td>Escuchar música</td>
+                                <td>Salir con amigos</td>
+                            </tr>
+                            <tr>
+                                <td>Carlos Aín</td>
+                                <td>Miranda</td>
+                                <td>Guerrero</td>
+                                <td>Viajar</td>
+                                <td>Tomar fotos</td>
+                                <td>Salir con amigos</td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>                
+            </section>
+            <section>
+                <h2>Ocupación de mis amigos</h2>
+                <h4>Tabla Zebra</h4><br>
+                    <p>Todos mis amigos son estudiantes universitarios. Estas son las carreras que estudian.</p><br>
+                    <table border="1" id="tabla2">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellido Paterno</th>
+                                <th>Apellido Materno</th>
+                                <th>Ocupación</th>
+                                <th>Carrera</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Keren Michelle</td>
+                                <td>Serés</td>
+                                <td>Cortés</td>
+                                <td>Estudiante</td>
+                                <td>Licenciatura en literatuta</td>
+                            </tr>
+                            <tr>
+                                <td>Karla Cecilia</td>
+                                <td>Vázquez</td>
+                                <td>Sánchez</td>
+                                <td>Estudiante</td>
+                                <td>Licenciatura en cosmetología</td>
+                            </tr>
+                            <tr>
+                                <td>Itai</td>
+                                <td>Rosete</td>
+                                <td>Velazco</td>
+                                <td>Estudiante</td>
+                                <td>Licenciatura en diseño gráfico</td>
+                            </tr>
+                            <tr>
+                                <td>Brenda Karen</td>
+                                <td>Cielo</td>
+                                <td>Anselmo</td>
+                                <td>Estudiante</td>
+                                <td>Licenciatura en diseño gráfico</td>
+                            </tr>
+                            <tr>
+                                <td>Juan Pablo</td>
+                                <td>Vázquez</td>
+                                <td>Sánchez</td>
+                                <td>Estudiante</td>
+                                <td>Licenciatura en actuaría</td>
+                            </tr>
+                            <tr>
+                                <td>Carlos Aín</td>
+                                <td>Miranda</td>
+                                <td>Guerrero</td>
+                                <td>Estudiante</td>
+                                <td>Ingeniería en animación</td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>                
+            </section>
+            <section>
+                <h2>Datos de emergencia de mis amigos</h2>
+                <h4>Tabla Hover</h4><br>
+                    <p>Mis amigos y yo procuramos tener los contactos de nuestros familiares en caso de emergencia.</p><br>
+                    <table border="1" id="tabla3">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellido Paterno</th>
+                                <th>Apellido Materno</th>
+                                <th>Parentezco</th>
+                                <th>Teléfono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Keren Michelle</td>
+                                <td>Serés</td>
+                                <td>Cortés</td>
+                                <td>Mamá</td>
+                                <td>222 897 8213</td>
+                            </tr>
+                            <tr>
+                                <td>Karla Cecilia</td>
+                                <td>Vázquez</td>
+                                <td>Sánchez</td>
+                                <td>Hermano</td>
+                                <td>222 178 3380</td>
+                            </tr>
+                            <tr>
+                                <td>Itai</td>
+                                <td>Rosete</td>
+                                <td>Velazco</td>
+                                <td>Papá</td>
+                                <td>221 199 1514</td>
+                            </tr>
+                            <tr>
+                                <td>Brenda Karen</td>
+                                <td>Cielo</td>
+                                <td>Anselmo</td>
+                                <td>Mamá</td>
+                                <td>222 473 6049</td>
+                            </tr>
+                            <tr>
+                                <td>Juan Pablo</td>
+                                <td>Vázquez</td>
+                                <td>Sánchez</td>
+                                <td>Hermana</td>
+                                <td>222 921 1244</td>
+                            </tr>
+                            <tr>
+                                <td>Carlos Aín</td>
+                                <td>Miranda</td>
+                                <td>Guerrero</td>
+                                <td>Mamá</td>
+                                <td>222 758 7859</td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>                 
+            </section>
+            <section style="overflow-x: auto">
+                <h2>Fecha de nacimiento y edad de mis amigos</h2>
+                <h4>Tabla con overflow</h4><br>
+                    <p>Mis amigos y yo somos del mismo rango de edad. Estas son sus edades y fechas de nacimiento.</p><br>
+                    <table border="1" id="tabla1" class="tabla1">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellido Paterno</th>
+                                <th>Apellido Materno</th>
+                                <th>Día de nacimiento</th>
+                                <th>Mes de nacimiento</th>
+                                <th>Año de nacimiento</th>
+                                <th>Edad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Keren Michelle</td>
+                                <td>Serés</td>
+                                <td>Cortés</td>
+                                <td>26</td>
+                                <td>Junio</td>
+                                <td>2002</td>
+                                <td>22 años</td>
+                            </tr>
+                            <tr>
+                                <td>Karla Cecilia</td>
+                                <td>Vázquez</td>
+                                <td>Sánchez</td>
+                                <td>04</td>
+                                <td>Agosto</td>
+                                <td>2001</td>
+                                <td>23 años</td>
+                            </tr>
+                            <tr>
+                                <td>Itai</td>
+                                <td>Rosete</td>
+                                <td>Velazco</td>
+                                <td>30</td>
+                                <td>Noviembre</td>
+                                <td>2002</td>
+                                <td>21 años</td>
+                            </tr>
+                            <tr>
+                                <td>Brenda Karen</td>
+                                <td>Cielo</td>
+                                <td>Anselmo</td>
+                                <td>27</td>
+                                <td>Enero</td>
+                                <td>2002</td>
+                                <td>22 años</td>
+                            </tr>
+                            <tr>
+                                <td>Juan Pablo</td>
+                                <td>Vázquez</td>
+                                <td>Sánchez</td>
+                                <td>14</td>
+                                <td>Octubre</td>
+                                <td>2002</td>
+                                <td>22 años</td>
+                            </tr>
+                            <tr>
+                                <td>Carlos Aín</td>
+                                <td>Miranda</td>
+                                <td>Guerrero</td>
+                                <td>13</td>
+                                <td>Junio</td>
+                                <td>2002</td>
+                                <td>22 años</td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>                
+            </section>            
+        </main>
+        <footer>
+            <h5>Elaborado por: Montserrat Minutti Noriega</h5>
+        </footer>
+    </body>
+</html>

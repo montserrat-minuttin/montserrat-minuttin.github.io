@@ -1,0 +1,178 @@
+<!doctype html>
+<!--
+Benemérita Universidad Autónoma de Puebla
+Colegio de Diseño Gráfico
+Diseño de Interfaces Gráficas de Usuario
+Creadora: Montserrat Minutti Noriega
+-->
+<html>
+    <head>
+        <title>Listas</title>
+        <style type="text/css">
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            header,nav,main,footer{
+                width: 960px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 20px;
+            }
+            header,footer{
+                color: floralwhite
+            }
+            header{
+                /*width: 1200px;*/
+                height: 150px;
+                background-color: deeppink
+            }
+            nav{
+                height: 50px;
+                background-color: darkcyan;
+            }
+            nav ul{
+                list-style-type: none;
+                text-align: center;
+            }
+            nav li{
+                display: inline-block;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            main{
+                height:1450px;
+                background-color: darkturquoise
+            }
+            section{
+                width: 600px;
+                height: 390px;
+                background-color: floralwhite;
+                margin-bottom: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 40px;
+                color: darkcyan;
+            }
+            ol,ul{
+                padding-left: 20px;
+            }
+            h2{
+                padding-bottom: 20px;
+            }
+            h5{
+                font-size: 14px;
+            }
+            h1,h5{
+                text-align: center;
+            }
+            footer{
+                height: 60px;
+                background-color: deeppink
+            }
+            nav a:link,nav a:visited{
+                color: darkcyan;
+            }
+            nav a:active{
+                color: darkturquoise; 
+            }
+            nav ul li{
+                width: 73px;
+                background-color: floralwhite;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            nav ul li a{
+                text-decoration: none;
+            }
+            nav ul a:hover{
+               color: deeppink;
+                font-weight: bolder;
+            }            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>LISTAS EN HTML</h1>
+        </header>
+        <nav>
+           <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="listas_css.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>            
+        </nav>
+        <main>
+            <section>
+                <h2>Mis 10 películas favoritas en orden</h2>
+                <h4>Lista ordenada o con viñeta numerada</h4><br>
+                <ol>
+                    <li>Me before you</li>
+                    <li>One day</li>
+                    <li>About time</li>
+                    <li>Five feet apart</li>
+                    <li>The weeding date</li>
+                    <li>Monte Carlo</li>
+                    <li>The princess diaries 2</li>
+                    <li>My best friend's wedding</li>
+                    <li>Lemonade mouth</li>
+                    <li>If I stay</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Mis series favoritas</h2>
+                <h4>Lista desordenada o con viñeta de ícono</h4><br>
+                <ul>
+                    <li>Grey's Anatomy</li>
+                    <li>The summer I turned pretty</li>
+                    <li>Jonas</li>
+                    <li>Gossip girl</li>
+                    <li>Stranger things</li>
+                    <li>Citadel</li>
+                    <li>Private practice</li>
+                    <li>Station 19</li>
+                    <li>How I meet your mother</li>
+                    <li>The inocents</li>
+                </ul>
+            </section>
+            <section id="artistas">
+                <h2>Mis artistas favoritos y las canciones que más me gustan</h2>
+                <h4>Lista mixta</h4><br>
+                <ol>
+                    <li>Shawn Mendes</li>
+                        <ul>
+                            <li>Why why why</li>
+                            <li>Teach me how to love</li>
+                            <li>Memories</li>
+                        </ul>
+                    <li>Taylor Swift</li>
+                        <ul>
+                            <li>Clean</li>
+                            <li>Guilty as sin?</li>
+                            <li>King of my heart</li>
+                        </ul>
+                    <li>Jonas Brothers</li>
+                        <ul>
+                            <li>Greenlight</li>
+                            <li>Only human</li>
+                            <li>Burnin' up</li>
+                        </ul>
+                    <li>Lauv</li>
+                        <ul>
+                            <li>Breathe</li>
+                            <li>Feelings</li>
+                            <li>Invisible things</li>
+                        </ul>
+                </ol>
+            </section>
+        </main>
+        <footer>
+            <h5>Elaborado por Montserrat Minutti</h5>
+        </footer>
+    </body>
+</html>
